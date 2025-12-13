@@ -1,0 +1,17 @@
+{
+    "accuracy": 0.6547646857285243,
+    "macro_f1": 0.6572530764989127,
+    "classification_report": "              precision    recall  f1-score   support\n\n      benign       0.50      0.51      0.50     64212\n  defacement       0.69      0.75      0.72     64212\n     malware       0.91      0.80      0.85     64212\n    phishing       0.55      0.55      0.55     64212\n\n    accuracy                           0.65    256848\n   macro avg       0.66      0.65      0.66    256848\nweighted avg       0.66      0.65      0.66    256848\n",
+    "roc_auc_per_class": {
+        "benign": 0.7998034303180785,
+        "defacement": 0.9211736939074613,
+        "malware": 0.9141750294316779,
+        "phishing": 0.8124118359494112
+    },
+    "pr_auc_per_class": {
+        "benign": 0.5013725359026364,
+        "defacement": 0.7547100081032044,
+        "malware": 0.8871980738258748,
+        "phishing": 0.5450077072944989
+    }
+}
